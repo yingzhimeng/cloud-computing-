@@ -1,0 +1,7 @@
+sudo apt install htop
+
+make pycaffe -jX
+make all -jX
+make test -jX
+
+sudo nano ~/.bashrc

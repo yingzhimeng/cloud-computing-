@@ -1,0 +1,8 @@
+sudo pip install Theano
+
+wget https://storage.googleapis.com/cuda-deb/six-1.11.0.tar.gz
+tar -zxf six-1.11.0.tar.gz
+cd six-1.11.0
+sudo python setup.py install
+
+sudo pip3 install Theano
